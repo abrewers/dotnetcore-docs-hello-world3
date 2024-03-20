@@ -14,7 +14,7 @@ public class PrivacyModel : PageModel
 
     public void OnGet()
     {
-        _logger.LogInformation("GET Pages.PrivacyModel called.");
+        _logger.LogError("GET Pages.PrivacyModel called.");
     }
 }
 
